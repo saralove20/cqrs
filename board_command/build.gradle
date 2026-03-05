@@ -1,0 +1,10 @@
+group = 'org.example'
+version = '0.0.1-SNAPSHOT'
+description = 'board_command'
+
+// 각 모듈에서 쓸 라이브러리는 각 모듈에 dependencies에 추가
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+
