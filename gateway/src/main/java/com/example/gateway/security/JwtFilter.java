@@ -1,4 +1,4 @@
-package org.example.gateway.security;
+package com.example.gateway.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
