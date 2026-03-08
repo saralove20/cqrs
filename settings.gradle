@@ -5,3 +5,5 @@ include 'board_command'
 include 'board_query'
 
 include 'gateway'
+
+include 'discovery'
