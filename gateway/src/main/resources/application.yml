@@ -23,8 +23,8 @@ spring:
               predicates:
                 - Path=/board/list, /board/read/**
 
-            # ??? ?? ?? ???? ?? user ??? ?? ?? ????? ??? ??? ???
+            # 로그인 해서 토큰 받아오기 위해 user 기능이 있는 기존 프로젝트를 라우트 설정에 추가함
             - id: origin
               uri: http://localhost:8083
               predicates:
-                - Path=/**
+                - Path=/**  # 위에 설정해놓은 uri 빼고 전부 다, 8083 포트로 가게 설정

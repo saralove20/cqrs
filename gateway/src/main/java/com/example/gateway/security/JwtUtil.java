@@ -1,4 +1,4 @@
-package org.example.gateway.security;
+package com.example.gateway.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
